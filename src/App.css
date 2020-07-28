@@ -1,0 +1,604 @@
+.App {
+  text-align: center;
+  font-family: 'Neucha', cursive;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*-- Menu Style Start --*/
+
+.Outer-menu{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.Menu-style {
+  padding-top: 1px;
+  color: rgb(31, 29, 29);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  font-family: 'Patrick Hand', cursive;
+}
+
+
+.Menu-style a {
+  float: right;
+  color: #926121;
+  text-align: center;
+  padding:15px;
+  text-decoration: none;
+  font-size: 22px;
+  margin-right:20px;
+  border-width: 0px;
+}
+
+.Menu-style a:hover {
+  color: blue;
+  border-style: solid;
+  border-width: 5px;
+  border-top:white;
+  border-left: white;
+  border-right: white;
+}
+
+.menu{
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.btn-light{
+  margin:15px 15px;
+  display: none;
+}
+
+.topnav {
+  margin-top:-9px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  font-family: 'Patrick Hand', cursive;
+  margin-bottom: 9px;
+}
+
+.topnav #myLinks {
+  display: inline-block;
+  width:100%;
+  background-color: rgb(215, 221, 221);
+}
+
+.topnav a {
+  color: brown;
+  padding: 9px 45px;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+ 
+}
+
+
+.topnav a:hover {
+  color: bisque;
+  border-style: solid;
+  border-width: 1px;
+  border-left: white;
+  border-right: white;
+  background-color: brown;
+}
+
+.Logo{
+  height:50px;
+  margin-top: 8px;
+}
+
+#SiteTitle{
+  padding-left: 50px;
+  margin-bottom:15px;
+}
+
+
+/*--Menu style End--*/
+
+.TopContent{
+  background-image: url("./Photos/Resto_background.jpg");
+  margin-top:-9px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+  height:600px;
+}
+
+.TopMainContent{
+  background-color: rgba(66, 65, 65, 0.486);
+  color: white;
+  padding-top:70px;
+  height:600px;
+}
+
+.IntroHeader{
+  font-size: 65px;
+  font-family: 'Monoton', cursive;
+}
+
+.IntroHeaderText{
+  font-size:20px;
+}
+
+.btn-outline-dark{
+  margin-top: 30px;
+  color: white;
+  border-color: #94ffa2;
+  border-width: 3px;
+  padding: 8px 20px;
+  font-size: 20px;
+  font-family: 'Audiowide', cursive;
+}
+
+.btn-outline-dark:hover{
+  background-color: #64af6e;;
+  border-color: #64af6e;
+}
+
+.AboutContent{
+  display:flex;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.AboutImage{
+    height:400px;
+    padding: 10px 20px;
+}
+.AboutText{
+  text-align: center;
+  padding: 10px 20px;
+  max-width: 700px;
+  font-size: 22px;
+}
+.AboutTextMore{
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 9%;
+  padding-right: 9%;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.AboutHeader{
+  text-align: center;
+  font-size: 47px;
+  font-family: 'Grenze Gotisch', cursive;
+  color: rgb(11, 56, 17);
+}
+.QuoteContent{
+  margin-top: 50px;
+  background-image: url("./Photos/quote-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.QuoteText {
+  padding-top: 80px;
+  color: white;
+  background-color: rgba(34, 34, 34, 0.445);
+  height: 400px;
+}
+
+.QuoteText p{
+  font-size: 47px;
+}
+
+.MenuHeader{
+  text-align: center;
+  font-size: 37px;
+  font-family: 'Grenze Gotisch', cursive;
+  color: rgb(11, 56, 17);
+  margin-bottom:30px;
+}
+
+.MenuItems{
+  margin-top:50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.MenuContent img{
+    width: 400px;
+    padding: 30px 15px;
+}
+
+.MenuContent img:hover{
+  padding: 0px 0px;
+  transition: padding 0.5s;
+}
+
+.CustomerDetails{
+  margin-top: 50px;
+}
+.CustomerContent{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.CustomerContent img{
+  border-radius: 80px;
+  width: 150px;
+  padding: 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.CustomerContent p{
+  margin-top: 20px;
+}
+
+.CustomerCard{
+  width: 400px;
+  padding: 20px 20px;
+}
+
+.ContactStrip{
+  background-color: #09a5b9fa;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.ContactDetails{
+  display: flex;
+  padding: 10px 70px;
+  font-size: 18px;
+}
+
+.fa{
+  font-size: 34px;
+  padding: 10px 15px;
+  background-color: azure;
+  color:#09a5b9fa;
+  border-radius: 35px;
+  margin-right: 17px;
+}
+.fa-envelope{
+  font-size: 28px;
+}
+
+.fa-map-marker{
+  padding: 10px 18px;
+}
+
+.Ct-detailsStyle{
+  text-align: left;
+}
+
+.MoreInfoStrip{
+  background-image: url("./Photos/almondBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.MoreInfoInnerStrip{
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.MoreInfoDetails{
+  padding: 20px 80px;
+  text-align: left;
+  font-size: 17px;
+  font-family: 'Play', sans-serif;
+}
+
+.MoreInfoDetails h4{
+  padding: 10px 0px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #09a5b9fa;
+  border-top:white;
+  border-left: white;
+  border-right: white;
+  margin-bottom: 15px;
+}
+
+.MoreInfoDetails i{
+  font-size: 34px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color:#09a5b9fa;
+  border-radius: 35px;
+  margin-right: 1px;
+}
+
+footer{
+  color: white;
+  padding: 15px 25px;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
+  font-family: 'Play', sans-serif;
+  font-size: 15px;
+}
+
+.Footer{
+  text-align: center;
+}
+
+.PageHeader{
+  height: 300px;
+  margin-top: -9px;
+  background-image: url("./Photos/all-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.PageText{
+  height: 300px;
+  padding-top: 100px;
+  background-color: rgba(8, 51, 9, 0.699);
+  color: white;
+  font-family: 'Play', sans-serif;
+  font-size: 55px;
+}
+
+.Reservation{
+  margin-left:19%;
+  margin-right:19%;
+  padding: 40px 2px;
+  font-family: 'Play', sans-serif;
+}
+
+.Reservation h2{
+  padding: 40px 2px;
+}
+
+.form-control{
+  height:50px;
+  border-radius: 1px;
+  border-color: rgb(231, 198, 136);
+  border-width: 1px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Book{
+  color:rgb(212, 182, 124);
+  border-color: rgb(231, 205, 156);
+  border-width: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 250px;
+  border-radius: 1px;
+  font-family: 'Play', sans-serif;
+}
+#MessageArea{
+  height:120px;
+}
+
+.BlogHeader{
+  padding-top: 45px;
+  font-family: 'Play', sans-serif;
+}
+
+.BlogContent{
+  padding: 30px 2px;
+  font-family: 'Play', sans-serif;
+  display: flex;
+  flex-wrap:wrap;
+  text-align:center;
+  justify-content: center;
+}
+.Blog{
+  height: 400px;
+  width: 350px;
+  margin: 20px 40px;
+  border-radius: 5px;
+}
+.BlogMain{
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(223, 211, 211);
+  border-radius: 5px;
+  text-align:left;
+  padding: 20px 30px;
+}
+.BlogMain h6{
+  padding: 7px 0px;
+  color:rgb(206, 68, 68);
+  font-size: 15px;
+}
+.BlogMain p{
+  font-size: 14px;
+  line-height: 28px;
+}
+.BlogMain:hover{
+  background-color: rgba(255, 255, 255, 0.897);
+}
+
+#Blog1{
+  background-image: url("./Photos/blog-img-01.jpg");
+}
+#Blog2{
+  background-image: url("./Photos/blog-img-02.jpg");
+}
+#Blog3{
+  background-image: url("./Photos/blog-img-03.jpg");
+}
+#Blog4{
+  background-image: url("./Photos/blog-img-04.jpg");
+}
+#Blog5{
+  background-image: url("./Photos/blog-img-05.jpg");
+}
+#Blog6{
+  background-image: url("./Photos/blog-img-06.jpg");
+}
+
+.btn-outline-danger{
+  color:rgb(206, 68, 68);
+  border-radius:2px;
+  border-width: 2px;
+  border-color: rgb(226, 151, 151);
+  width: 150px;
+}
+
+@media only screen and (max-width: 1026px) {
+  .btn-light{
+    display:block;
+    background-color: #eeb66d;
+    color: white;
+  }
+  
+  .Menu-style {
+    margin-bottom: 0px;
+  }
+  .Menu-style a{
+    display:none;
+  }
+  .Menu-style a:hover{
+    display:none;
+  }
+  .IntroHeader{
+    font-size: 25px;
+  }
+  .IntroHeaderText{
+    font-size:16px;
+    padding: 0px 70px;
+    text-align: center;
+  }
+  .ContactStrip{
+    text-align: left;
+    justify-content: left;
+  }
+  .MoreInfoInnerStrip{
+    justify-content: left;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .AboutImage{
+    height:300px;
+  }
+  .AboutHeader{
+    font-size: 37px;
+  }
+  .AboutText{
+    font-size: 20px;
+  }
+  .AboutTextMore{
+    font-size: 20px;
+  }
+  .MoreInfoDetails{
+    padding: 20px 70px;
+    text-align: left;
+    font-size: 17px;
+  }
+  
+}
+
+@media only screen and (max-width: 426px) {
+  .AboutContent{
+    flex-direction: column;
+  }
+  QuoteText {
+    padding-top: 50px;
+  }
+  .QuoteText p{
+    font-size: 33px;
+    padding: 0px 10px;
+  }
+  .MenuContent img{
+    width: 350px;
+    padding: 15px 15px;
+  } 
+  .ContactDetails{
+    padding: 10px 40px;
+    font-size: 18px;
+  }
+  .MoreInfoDetails i{
+    padding: 10px 10px;
+  }
+  .MoreInfoDetails{
+    padding: 20px 40px;
+  }
+  .Reservation{
+    margin-left:9%;
+    margin-right:9%;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .MenuContent img{
+    width: 300px;
+  } 
+  .ContactDetails{
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+  .MoreInfoDetails{
+    padding: 20px 20px;
+  }
+  .Blog{
+    width: 305px;
+    height: auto;
+  }
+  .BlogMain{
+    width: 305px;
+    height: auto;
+  }
+  
+}
+
+    
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
